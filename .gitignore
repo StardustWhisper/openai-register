@@ -11,3 +11,8 @@ wheels/
 
 # Local env files
 .env
+
+# Local secrets/output
+accounts.txt
+token_*.json
+.email_tokens.json
