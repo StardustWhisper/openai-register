@@ -11,6 +11,21 @@ wheels/
 
 # Local env files
 .env
+.env.*
+
+# Local secrets/output
+accounts.txt
+token_*.json
+.email_tokens.json
+
+# Common local/editor/system files
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
 
 # Local secrets/output
 accounts.txt
